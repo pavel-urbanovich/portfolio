@@ -1,0 +1,76 @@
+html {
+    position: relative;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 20px;
+    color: #fff;
+    background-color: #000;
+    font-family: 'Inter', sans-serif;
+    line-height: 36px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: calc(100% - 40px);
+}
+
+a:hover {
+    color:  #BDAE82;
+    transition: 0.6s ease-in-out;
+}
+
+.name_section {
+    position: relative;
+    margin: 0 auto 60px auto;
+    width: 700px;
+    height: 80px;
+}
+
+.light-theme {
+    background-color: #fff;
+    color: #000;
+}
+
+.light-theme .button {
+    color: #000;
+}
+
+.light-theme .button:hover {
+    color: black;
+}
+
+.body_theme {
+    background-color: #fff;
+}
+
+.light-theme h2:not(.contacts_title) {
+    color: #000;
+    background-color: #fff;
+}
+
+.light-theme .lines {
+    background-image: linear-gradient(to top, #ffff 39px, #000 39px, #000 41px, #fff 41px);
+}
+
+.header_logo.index, .button_one.index, .language.index {
+    z-index: 0;
+    transition: 0s;
+}
+

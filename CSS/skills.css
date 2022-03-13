@@ -1,0 +1,51 @@
+.card_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
+
+.card_description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height: 240px;
+}
+
+.logo {
+    padding-bottom: 50px;
+}
+.sub_title {
+    width: 280px;
+    height: 72px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.skills_section {
+    padding-top: 103px;
+}
+
+h2 {
+    margin: 0 auto;
+    width: 152px;
+    padding: 0 20px 0 20px;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    text-align: center;
+    line-height: 80px;
+    background-color: #000;
+    color: #bdae82;
+}
+
+h4 {
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.lines {
+    background-image: linear-gradient(to top, #000 39px, #bdae82 39px, #bdae82 41px, #000 41px);
+}

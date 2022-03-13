@@ -1,0 +1,49 @@
+.price_title {
+    max-width: 142px;
+}
+
+.price_container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.price_subcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 450px;
+    width: 100%;
+    border: 3px solid #BDAE82;
+}
+
+.price_subcontainer button {
+    margin: 40px 0 40px 0;
+    padding: 8px 0px 7px 0px;
+    line-height: 40px;
+}
+
+h3 {
+    margin-top: 40px;
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    line-height: 56px;
+}
+
+.price_subcontainer p:nth-child(2) {
+    margin: 20px 0 21px 0;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    line-height: 48px;
+    font-size: 24px;
+    color: #BDAE82;
+}
+
+.price_description {
+    font-size: 18px;
+}
+
+.price_section {
+    margin-bottom: 95px;
+}

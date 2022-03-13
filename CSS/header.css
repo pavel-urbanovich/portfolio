@@ -1,0 +1,152 @@
+.header {
+    background: url(../assets/img/bg.jpg);
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    min-height: 90px;
+    align-items: center;
+}
+
+.navigation {
+    margin-left: auto;
+    min-height: 90px;
+    display: flex;   
+}
+
+.nav_container {
+    margin: auto;
+}
+
+.header_navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 31px;
+    padding: 0;
+    list-style-type: none;
+    width: 439px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.language {
+    position: relative;
+    z-index: 24;
+    width: 70px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.change_another_language {
+    margin-left: 9px;
+}
+
+.language span:hover {
+    color: #BDAE82;
+    transition: 0.6s;
+}
+
+.change {
+    margin-right: 9px;
+    color: #BDAE82;
+}
+.change.lang-color-white {
+    color: #FFFFFF;
+}
+
+.change_another_language.lang-color {
+    color: #BDAE82;
+}
+
+.header_logo {
+    position: relative;
+    z-index: 22;
+    background: url(../assets/svg/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    width: 50px;
+    height: 50px;
+    transition: 0.7s ease-in-out;
+}
+
+.header_logo:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
+
+.hamburger.hamburger_open {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    margin-right: 4px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    z-index: 25;
+    gap: 7px;
+}
+
+.line {
+    width: 50px;
+    height: 3px;
+    background: #000;
+    margin: 1px 0;
+    z-index: 125;
+    transition: all 0.3s ease-in-out;
+    background: #FFFFFF;
+}
+
+.hamburger.open .line1 {
+    transform: rotate(-45deg) translate(-4px, 11px);
+    height: 2px;
+    width: 58px;
+}
+
+.hamburger.open .line2 {
+    opacity: 0;
+}
+
+.hamburger.open .line3 {
+    transform: rotate(45deg) translate(-5px, -10px);
+    height: 2px;
+    width: 58px;
+}
+
+.hamburger.hover .line1, .hamburger.hover .line2, .hamburger.hover .line3 {
+    background: #bdae82;
+}
+
+.theme {
+    background-image: url(../assets/svg/darklogo.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 45px;
+    width: 45px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.theme_dark {
+    background-image: url(../assets/svg/sun.svg);
+}
+
+.theme:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+    transition: 0.2s ease-in;
+}
+
+.hamburger.open.black .line1, .hamburger.open.black .line3 {
+    background-color: #000;
+}
+
+
