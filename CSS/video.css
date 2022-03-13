@@ -1,0 +1,43 @@
+.video_title {
+    width: 154px;
+}
+
+.video_wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.video_pl {
+    margin: 0 auto;
+    display: block;
+}
+
+.video_wrapper {
+    overflow-x: hidden;
+}
+
+.player {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(../assets/svg/Play_hover.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    cursor: pointer;
+    padding: 0px;
+    transition: 0.7s ease-in-out;
+}
+
+.player:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
+
+.video_section {
+    padding-bottom: 100px;
+}

@@ -1,0 +1,84 @@
+.portfolio_title {
+    width: 232px;
+    padding: 0 25px 0 25px;
+    margin: 0 auto;
+}
+
+.wrapper_button {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    gap: 5px;
+}
+
+.button {
+    width: 220px;
+    height: 55px;
+    border: 2px solid #BDAE82;
+    padding: 0 7px 0 7px;
+    font-family: inherit;
+    line-height: 40px;
+    background-color: transparent;
+    color: #BDAE82;
+    cursor: pointer;
+}
+
+.button-autumn {
+    background-color: #BDAE82;
+    color: #000;
+}
+
+.button-autumn.none {
+    background-color: transparent;
+    color: #BDAE82;
+}
+
+.button:hover {
+    color: #fff;
+    transition: 1s ease-in-out;
+
+}
+
+
+.wrapper_button button:last-child:hover {
+    transition: 1s ease-in-out;
+}
+
+.photo_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    gap: 25px;
+}
+
+.photo_container img {
+    margin: 0 auto;
+}
+
+.portfolio_section {
+    padding: 100px 0 100px 0;
+}
+
+.button.active {
+    color: #000;
+    background-color: #bdae82;
+    transition: 1s ease-in-out;
+}
+
+.button-autumn.white {
+    color: #000;
+}
+
+.button-autumn.white:hover, .button-summer.white:hover, .button-winter.white:hover, .button-spring.white:hover {
+    background-color: #BDAE82;
+    color: #fff;
+    transition: 1s;
+}
+
+.button.active:hover {
+    color: #fff;
+}
+
+
+
+
